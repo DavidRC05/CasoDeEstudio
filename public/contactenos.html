@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contactenos</title>
+    <link href="../CSS/style.css" rel="stylesheet" />
+    <script src="../JS/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/5.2.3/css/bootstrap.min.css"
+    />
+  </head>
+  <body id="contactenos">
+    <div class="logo">
+      <a href="../index.html"
+        ><img
+          src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Android_O_Preview_Logo.png"
+          alt="Logo"
+          style="width: 30px"
+        />
+      </a>
+    </div>
+
+    <nav>
+      <ul>
+        <li style="margin-left: 360px"><a href="../index.html">HOME</a></li>
+        <li><a href="./productos.html">PRODUCTOS</a></li>
+        <li><a href="./contactenos.html">CONTACTENOS</a></li>
+      </ul>
+    </nav>
+    
+    <br/>
+    <br/>
+    <fieldset>
+      
+      <legend>Contactenos llenando todos los campos</legend>
+      <div class="contenedor-campos">
+        <br />
+        <div class="campo">
+          <label>Nombre</label>
+          <br />
+          <br />
+          <input
+            id="nombre"
+            class="input-text"
+            type="text"
+            placeholder="Tu nombre"
+          />
+        </div>
+        <br />
+        <div class="campo">
+          <label>Teléfono</label>
+          <br />
+          <br />
+          <input
+            id="telefono"
+            class="input-text"
+            type="tel"
+            placeholder="Tu telefono"
+          />
+        </div>
+        <br />
+        <div class="campo">
+          <label>Correo</label>
+          <br />
+          <br />
+          <input
+            id="correo"
+            class="input-text"
+            type="email"
+            placeholder="Tu correo"
+          />
+        </div>
+        <br />
+        <div class="campo">
+          <label>Mensaje</label>
+          <br />
+          <br />
+          <textarea id="mensaje" class="input-text"></textarea>
+        </div>
+      </div>
+      <br />
+      <div>
+        <button class="boton" onclick="enviar()">Enviar</button>
+      </div>
+    </fieldset>
+  </body>
+</html>
